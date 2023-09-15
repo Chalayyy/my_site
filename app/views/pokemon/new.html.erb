@@ -1,0 +1,9 @@
+<%= form_for(@pokemon) do |f| %>  
+    <p><%= f.label :namex%><%= f.text_field :name%> </p> <br>
+    <p><%= f.label :type%><%= f.text_field :typing%> </p> <br>
+
+    
+  <div class="actions"> 
+    <%= f.submit "Create" %> 
+  </div> 
+<% end %> 
